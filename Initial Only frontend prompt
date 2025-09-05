@@ -1,0 +1,60 @@
+You are a senior frontend developer.  
+Build a **responsive web application** called **Pledge Point** (frontend-only, no database integration for now).  
+
+📌 Tech:
+- Use React + TailwindCSS (or default Vibe stack).
+- Keep design minimal, clean, gamified (cards, icons, emojis, progress bars).
+- Mobile-first responsive layout.
+
+📌 Pages & Flow:
+1. **Welcome Screen**
+   - Title: "✨ Welcome to Pledge Point"
+   - Subtitle: "Turn your words into actions. Build trust, stay accountable, and earn rewards for keeping your promises."
+   - Button: [ Get Started ]
+
+2. **Disclaimer & Terms**
+   - Text box with:
+     - “This app is for personal, social, and professional accountability.”
+     - “Promises are not legally binding.”
+     - “Users are fully responsible for their commitments and rewards.”
+   - Button: [ Agree & Continue ]
+
+3. **Choose Promise Type Page**
+   - Heading: "What kind of promise would you like to create today?"
+   - Promise type options as large buttons/cards with icons:
+     - 🤝 Self-Promise (personal goals, habits, streaks)
+     - 💕 Couple Promise (partner commitments, shared accountability)
+     - 👯 Friend Promise (fun bets, events, outings)
+     - 👨‍👩‍👧 Family Promise (chores, study, bonding time)
+     - 💼 Professional Promise (tasks, deadlines, team goals)
+
+4. **Create Promise Form**
+   - Inputs:
+     - Promise Title
+     - Details (textarea)
+     - Deadline / Frequency (date picker / dropdown)
+     - Points / Penalty (number input)
+     - Proof Upload (optional file input)
+   - Button: [ Save Promise ]
+
+5. **Tracker Dashboard (after saving)**
+   - Show created promise in a **card layout** with:
+     - Title & details
+     - Daily Check-in buttons (✔️ Kept / ❌ Broken)
+     - Streak Counter (🔥 Streak: X days)
+     - Progress Bar (% completion of goal)
+     - Points Earned
+   - For Couple/Friend/Family promises, add:
+     - Dual Check-in or Parent Approval (extra ✔️ button for second user/parent)
+     - Notes/Comments section
+   - Reminder toggle (On/Off)
+
+6. **Gamification Layer**
+   - Leaderboard section (dummy static for now)
+   - Rewards section (locked icons / "Coming Soon")
+   - Promise History log (list of past promises with ✔️/❌/⭐ emojis)
+
+📌 Additional Notes:
+- Use **cards, progress bars, badges, and emoji-based UI** to make it fun & engaging.
+- No backend yet → just keep state in local storage or frontend memory.
+- Make the UI **modular** so database and authentication can be plugged in later.
